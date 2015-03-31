@@ -1,0 +1,50 @@
+TARGET missdriller.exe
+targettype exe
+targetpath \sys\bin
+systeminclude \epoc32\include\esdl \epoc32\include\libc \epoc32\include
+userinclude ..\src
+sourcepath ..\src
+
+source cbmps.c cffont.c cinput.c ctime.c cwavs.c drill.c
+source driller.cpp drill_audio.c frame_skip.c
+
+EPOCSTACKSIZE	80000
+EPOCHEAPSIZE	3200000 32000000
+UID             0x100039ce 0xA00007B9
+
+library estlib.lib
+LIBRARY         euser.lib bafl.lib
+LIBRARY         apparc.lib mediaclientaudiostream.lib 
+
+LIBRARY         cone.lib  bitgdi.lib 
+
+LIBRARY         eikcore.lib hal.lib
+LIBRARY         eikcoctl.lib
+LIBRARY          gdi.lib apgrfx.lib 
+
+LIBRARY         avkon.lib eikdlg.lib fbscli.lib 
+LIBRARY         efsrv.lib  ws32.lib 
+
+
+
+staticlibrary sdl_mixer.lib esdl.lib 
+
+sourcepath .\s60v3
+START RESOURCE  missdriller_reg.rss
+TARGETPATH              \private\10003a3f\apps
+END
+
+START RESOURCE  missdriller_loc.rss
+TARGETPATH              \Resource\Apps
+LANG                    SC
+END
+
+SOURCEPATH 	.\s60v3
+START RESOURCE  missdriller.rss
+HEADER
+TARGETPATH              \Resource\Apps
+LANG                    SC
+END
+sourcepath .
+
+MACRO S60V3

@@ -1,0 +1,24 @@
+modified:
+--------
+panel.bmp    (up+down+airzone)
+hosi4.bmp    (orange) |
+hosi3.bmp    (orange) | don't seem to be visible because of color limitation
+hosi2.bmp    (orange) |
+hosi1.bmp    (orange) |
+gameover.bmp (around for visibility)
+airshort.bmp (button)
+airminus.bmp (button)
+
+redone:
+------
+mainback.bmp    (less basic)
+blockX4.bmp     (to show state)
+blockX2.bmp     (to show state)
+blockX1.bmp     (to show state)
+blockX.bmp      (to match X1, X2 & X4)
+hosi5.bmp       (cuttiest)
+yellowblock.bmp (for multi-blocks)
+redblock.bmp    (for multi-blocks)
+greenblock.bmp  (for multi-blocks)
+clearblock.bmp  (for multi-blocks)
+blueblock.bmp   (for multi-blocks)

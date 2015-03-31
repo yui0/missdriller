@@ -1,0 +1,24 @@
+#-------------------------------------------------
+#	.wav data instruction
+#
+#	copyright 2000,adas
+#-------------------------------------------------
+#music
+
+#click
+10	click05.wav
+#airget
+11	air_item.wav
+#block break
+12	pfire.wav
+#hardblock breaking
+13	electrom.wav
+#susumi death
+14	susumi_death.wav
+#alarm
+15	alarm.wav
+#susumi block
+16	susumi_block.wav
+
+17	level_complet.wav
+18	metal.wav

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Comment=Mr. Driller (C)NAMCO clone
+Comment[ja]=Mr. Driller クローン
+Exec=/opt/game/missdriller/drill
+Icon=/opt/game/missdriller/driller.png
+Name=Miss Driller
+Path=/opt/game/missdriller/
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

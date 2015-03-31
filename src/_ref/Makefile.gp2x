@@ -1,0 +1,47 @@
+# Project: Project1
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+OBJ  = gp2x/drill.o gp2x/CBmps.o gp2x/Cffont.o gp2x/CInput.o gp2x/CTime.o gp2x/CWavs.o
+LINKOBJ  = gp2x/drill.o gp2x/CBmps.o gp2x/Cffont.o gp2x/CInput.o gp2x/CTime.o gp2x/CWavs.o
+LIBS =  -L"C:/GP2XSDK/Tools/arm-gp2x-linux/lib" -lSDL_image -lSDL_mixer -lSDL_ttf -lSDL_inifile -lSDL -lpng -ljpeg -lvorbisidec -lmad -lfreetype -lz -lunicodefont  
+INCS =  -I"C:/GP2XSDK/Tools/arm-gp2x-linux/include"  -I"C:/GP2XSDK/Tools/include"  -I"C:/GP2XSDK/Tools/include/SDL" 
+CXXINCS =  -I"C:/GP2XSDK/Tools/include/c++/3.4.6/backward"  -I"C:/GP2XSDK/Tools/include/c++/3.4.6"  -I"C:/GP2XSDK/Tools/arm-gp2x-linux/include"  -I"C:/GP2XSDK/Tools/include"  -I"C:/GP2XSDK/Tools/include/SDL" 
+BIN  = Project1.gpe
+CXXFLAGS = $(CXXINCS)   -DGP2X
+CFLAGS = $(INCS) -D_REENTRANT  -DGP2X
+RM = rm -f
+MKDIR = cygwin-mkdir -p
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Project1.gpe all-after
+
+all-before:
+	$(MKDIR) "gp2x"
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $@ $(LIBS)
+
+gp2x/drill.o: drill.c
+	$(CC) -c drill.c -o gp2x/drill.o $(CFLAGS)
+
+gp2x/CBmps.o: CBmps.c
+	$(CC) -c CBmps.c -o gp2x/CBmps.o $(CFLAGS)
+
+gp2x/Cffont.o: Cffont.c
+	$(CC) -c Cffont.c -o gp2x/Cffont.o $(CFLAGS)
+
+gp2x/CInput.o: CInput.c
+	$(CC) -c CInput.c -o gp2x/CInput.o $(CFLAGS)
+
+gp2x/CTime.o: CTime.c
+	$(CC) -c CTime.c -o gp2x/CTime.o $(CFLAGS)
+
+gp2x/CWavs.o: CWavs.c
+	$(CC) -c CWavs.c -o gp2x/CWavs.o $(CFLAGS)

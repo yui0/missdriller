@@ -1,0 +1,56 @@
+Miss Driller 
+===================
+A clone of
+Mr Driller(by Namco)
+for Symbian OS phones
+for UIQ3 and S60v3
+ported 
+AntherGuest/SomeOne!
+
+Gameplay:
+The goal is to dig as deep
+as possible, whilst merging
+stones in the same colour
+(much as Tetris)
+
+Controls:
+S60v3:
+Control Susumi using the jogpad.
+Dig with left, right, '*', and '#' keys.
+Pause/Quit game using 'C' or '0'
+In Pause, you can raise or lower the 
+volume with the jogpad.
+
+UIQ3:
+*Control Susumi using
+Jogpad or "2","4","6","8"
+(Lock into 2,4,6,8 mode on 
+M600,P1i and P990 by 
+pressing left&right 
+at the same time).
+*Dig using '*', '#' or Jogdial/Centerkey.
+*To Pause/Quit game press 'C', 
+'0' or tap the small "ESC" button.
+
+
+Credits:
+
+Based on
+DRILL2X XTREME 
+by JYCET
+which is based on
+DRILL2X Final of BIRSLIP's 
+version.
+This was based on
+this pc version:
+http://www.geocities.co.jp/Berkeley/2093/driller.html
+
+Gp2x programmers:
+JyCet
+~kfazz   (kfazzone@snet.net)
++birslip (http://birslip.pizz.biz/)
++edd
+
+
+Big thanks to ALL DRILL contributors 
+on ALL platforms supported!!!

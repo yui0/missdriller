@@ -1,0 +1,20 @@
+NAME MSDR
+
+// Include definitions of resource STRUCTS used by this
+// resource script 
+#include <eikon.rh>
+
+// Include the standard Eikon resource ids 
+#include <eikon.rsg>
+
+
+RESOURCE RSS_SIGNATURE
+	{
+	}
+
+RESOURCE TBUF16 { buf=""; }
+
+RESOURCE EIK_APP_INFO
+	{
+	}
+

@@ -1,0 +1,7 @@
+PRJ_PLATFORMS
+ARMI ARM4 THUMB winscw gcce
+
+		
+PRJ_MMPFILES
+gnumakefile icons.mk
+..\MissDriller_s60v3.mmp

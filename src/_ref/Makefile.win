@@ -1,0 +1,49 @@
+# Project: Project1
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = win/drill.o win/CBmps.o win/Cffont.o win/CInput.o win/CTime.o win/CWavs.o $(RES)
+LINKOBJ  = win/drill.o win/CBmps.o win/Cffont.o win/CInput.o win/CTime.o win/CWavs.o $(RES)
+LIBS =  -L"C:/GP2XSDK/lib" -lmingw32 -liconv -lgp2x -lSDL_image -lSDL_mixer -lSDL_ttf -lSDL_inifile -lSDLmain -lSDL -lpng -ljpeg -lvorbisidec -lmad -lfreetype -lz -lunicodefont  
+INCS =  -I"C:/GP2XSDK/include/GP2X"  -I"C:/GP2XSDK/include/SDL"  -I"C:/GP2XSDK/include" 
+CXXINCS =  -I"C:/GP2XSDK/include/GP2X"  -I"C:/GP2XSDK/include/SDL"  -I"C:/GP2XSDK/lib/gcc/mingw32/3.4.2/include"  -I"C:/GP2XSDK/include/c++/3.4.2/backward"  -I"C:/GP2XSDK/include/c++/3.4.2/mingw32"  -I"C:/GP2XSDK/include/c++/3.4.2"  -I"C:/GP2XSDK/include" 
+BIN  = Project1.exe
+CXXFLAGS = $(CXXINCS)   -DWIN32
+CFLAGS = $(INCS) -D_REENTRANT  -DWIN32
+RM = rm -f
+MKDIR = cygwin-mkdir -p
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Project1.exe all-after
+
+all-before:
+	$(MKDIR) "win"
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $@ $(LIBS)
+
+win/drill.o: drill.c
+	$(CC) -c drill.c -o win/drill.o $(CFLAGS)
+
+win/CBmps.o: CBmps.c
+	$(CC) -c CBmps.c -o win/CBmps.o $(CFLAGS)
+
+win/Cffont.o: Cffont.c
+	$(CC) -c Cffont.c -o win/Cffont.o $(CFLAGS)
+
+win/CInput.o: CInput.c
+	$(CC) -c CInput.c -o win/CInput.o $(CFLAGS)
+
+win/CTime.o: CTime.c
+	$(CC) -c CTime.c -o win/CTime.o $(CFLAGS)
+
+win/CWavs.o: CWavs.c
+	$(CC) -c CWavs.c -o win/CWavs.o $(CFLAGS)

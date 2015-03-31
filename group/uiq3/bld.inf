@@ -1,0 +1,7 @@
+PRJ_PLATFORMS
+ARMI ARM4 THUMB winscw gcce
+
+			
+
+PRJ_MMPFILES
+..\MissDriller_uiq3.mmp

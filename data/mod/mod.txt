@@ -1,0 +1,3 @@
+title	core_worldmap.mod
+hiscore	theend.mod
+game	jester_crackegg.mod

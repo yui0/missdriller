@@ -1,0 +1,130 @@
+; List of localised vendor names - one per language. At least one must be provided (English [EN]).
+; List must correspond to list of languages specified elsewhere in the .pkg
+%{"SomeOne"}
+; The non-localised, globally unique vendor name (mandatory)
+:"SomeOne"
+
+; UID is the app's UID
+#{"Miss Driller"},(0xA00007B9),1,0,0
+
+;Supports Series 60 v 3.0
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+
+
+; Application, AIF & Resource file
+"\epoc32\release\gcce\urel\missdriller.exe"-		"!:\sys\bin\missdriller.exe"
+"\epoc32\data\z\resource\apps\missdriller.rsc"-	"!:\resource\apps\missdriller.rsc"
+"\epoc32\Data\Z\resource\apps\missdriller_loc.rsc"-	"!:\resource\apps\missdriller_loc.rsc"
+"\epoc32\data\Z\resource\APPS\missdriller.mif"-	"!:\resource\apps\missdriller.mif"
+"\epoc32\data\z\private\10003a3f\apps\missdriller_reg.rsc"-"!:\private\10003a3f\import\apps\missdriller_reg.rsc"
+
+"..\data\drill.ini"-"!:\resource\apps\missdriller\drill.ini"
+"..\data\blockbg.txt"-"!:\resource\apps\missdriller\blockbg.txt"
+"..\data\charabg.txt"-"!:\resource\apps\missdriller\charabg.txt"
+"..\data\otherbg.txt"-"!:\resource\apps\missdriller\otherbg.txt"
+"..\data\wav.txt"-    "!:\resource\apps\missdriller\wav.txt"
+"..\data\engrave8.bmp"-"!:\resource\apps\missdriller\engrave8.bmp"
+
+; Wav files
+"..\data\wav\click05.wav"-"!:\resource\apps\missdriller\wav\click05.wav"
+"..\data\wav\air_item.wav"-"!:\resource\apps\missdriller\wav\air_item.wav"
+"..\data\wav\alarm.wav"-"!:\resource\apps\missdriller\wav\alarm.wav"
+"..\data\wav\electrom.wav"-"!:\resource\apps\missdriller\wav\electrom.wav"
+"..\data\wav\level_complet.wav"-"!:\resource\apps\missdriller\wav\level_complet.wav"
+"..\data\wav\metal.wav"-"!:\resource\apps\missdriller\wav\metal.wav"
+"..\data\wav\pfire.wav"-"!:\resource\apps\missdriller\wav\pfire.wav"
+"..\data\wav\susumi_block.wav"-"!:\resource\apps\missdriller\wav\susumi_block.wav"
+"..\data\wav\susumi_death.wav"-"!:\resource\apps\missdriller\wav\susumi_death.wav"
+; Mod files
+"..\data\mod\mod.txt"		-"!:\resource\apps\missdriller\mod\mod.txt"
+"..\data\mod\core_worldmap.mod"	-"!:\resource\apps\missdriller\mod\core_worldmap.mod"
+"..\data\mod\jester_crackegg.mod"	-"!:\resource\apps\missdriller\mod\jester_crackegg.mod"
+"..\data\mod\theend.mod"		-"!:\resource\apps\missdriller\mod\theend.mod"
+
+; bmp files
+"..\data\bmp\air.bmp"-"!:\resource\apps\missdriller\bmp\air.bmp"
+"..\data\bmp\airbar.bmp"-"!:\resource\apps\missdriller\bmp\airbar.bmp"
+"..\data\bmp\airminus.bmp"-"!:\resource\apps\missdriller\bmp\airminus.bmp"
+"..\data\bmp\airshort.bmp"-"!:\resource\apps\missdriller\bmp\airshort.bmp"
+"..\data\bmp\blockA.bmp"-"!:\resource\apps\missdriller\bmp\blocka.bmp"
+"..\data\bmp\blockB.bmp"-"!:\resource\apps\missdriller\bmp\blockb.bmp"
+"..\data\bmp\blockC.bmp"-"!:\resource\apps\missdriller\bmp\blockc.bmp"
+"..\data\bmp\blockD.bmp"-"!:\resource\apps\missdriller\bmp\blockd.bmp"
+"..\data\bmp\blockE.bmp"-"!:\resource\apps\missdriller\bmp\blocke.bmp"
+"..\data\bmp\blockX.bmp"-"!:\resource\apps\missdriller\bmp\blockx.bmp"
+"..\data\bmp\blockX1.bmp"-"!:\resource\apps\missdriller\bmp\blockx1.bmp"
+"..\data\bmp\blockX2.bmp"-"!:\resource\apps\missdriller\bmp\blockx2.bmp"
+"..\data\bmp\blockX4.bmp"-"!:\resource\apps\missdriller\bmp\blockx4.bmp"
+"..\data\bmp\block_lvl0_blue.bmp"-"!:\resource\apps\missdriller\bmp\block_lvl0_blue.bmp"
+"..\data\bmp\clear.bmp"-"!:\resource\apps\missdriller\bmp\clear.bmp"
+"..\data\bmp\clear100.bmp"-"!:\resource\apps\missdriller\bmp\clear100.bmp"
+"..\data\bmp\clear200.bmp"-"!:\resource\apps\missdriller\bmp\clear200.bmp"
+"..\data\bmp\clear300.bmp"-"!:\resource\apps\missdriller\bmp\clear300.bmp"
+"..\data\bmp\clear400.bmp"-"!:\resource\apps\missdriller\bmp\clear400.bmp"
+"..\data\bmp\clear500.bmp"-"!:\resource\apps\missdriller\bmp\clear500.bmp"
+"..\data\bmp\clear600.bmp"-"!:\resource\apps\missdriller\bmp\clear600.bmp"
+"..\data\bmp\clear700.bmp"-"!:\resource\apps\missdriller\bmp\clear700.bmp"
+"..\data\bmp\clear800.bmp"-"!:\resource\apps\missdriller\bmp\clear800.bmp"
+"..\data\bmp\clear900.bmp"-"!:\resource\apps\missdriller\bmp\clear900.bmp"
+"..\data\bmp\block_lvl0_clear.bmp"-"!:\resource\apps\missdriller\bmp\block_lvl0_clear.bmp"
+"..\data\bmp\cleargoal.bmp"-"!:\resource\apps\missdriller\bmp\cleargoal.bmp"
+"..\data\bmp\dead.bmp"-"!:\resource\apps\missdriller\bmp\dead.bmp"
+"..\data\bmp\down.bmp"-"!:\resource\apps\missdriller\bmp\down.bmp"
+"..\data\bmp\fasttime.bmp"-"!:\resource\apps\missdriller\bmp\fasttime.bmp"
+"..\data\bmp\gameover.bmp"-"!:\resource\apps\missdriller\bmp\gameover.bmp"
+"..\data\bmp\block_lvl0_green.bmp"-"!:\resource\apps\missdriller\bmp\block_lvl0_green.bmp"
+"..\data\bmp\highscore.bmp"-"!:\resource\apps\missdriller\bmp\highscore.bmp"
+"..\data\bmp\highscoremark.bmp"-"!:\resource\apps\missdriller\bmp\highscoremark.bmp"
+"..\data\bmp\hosi1.bmp"-"!:\resource\apps\missdriller\bmp\hosi1.bmp"
+"..\data\bmp\hosi2.bmp"-"!:\resource\apps\missdriller\bmp\hosi2.bmp"
+"..\data\bmp\hosi3.bmp"-"!:\resource\apps\missdriller\bmp\hosi3.bmp"
+"..\data\bmp\hosi4.bmp"-"!:\resource\apps\missdriller\bmp\hosi4.bmp"
+"..\data\bmp\hosi5.bmp"-"!:\resource\apps\missdriller\bmp\hosi5.bmp"
+"..\data\bmp\left.bmp"-"!:\resource\apps\missdriller\bmp\left.bmp"
+"..\data\bmp\lowpanel.bmp"-"!:\resource\apps\missdriller\bmp\lowpanel.bmp"
+"..\data\bmp\mainback.bmp"-"!:\resource\apps\missdriller\bmp\mainback.bmp"
+"..\data\bmp\panel.bmp"-"!:\resource\apps\missdriller\bmp\panel.bmp"
+"..\data\bmp\pause.bmp"-"!:\resource\apps\missdriller\bmp\pause.bmp"
+"..\data\bmp\quit.bmp"-"!:\resource\apps\missdriller\bmp\quit.bmp"
+"..\data\bmp\block_lvl0_red.bmp"-"!:\resource\apps\missdriller\bmp\block_lvl0_red.bmp"
+"..\data\bmp\right.bmp"-"!:\resource\apps\missdriller\bmp\right.bmp"
+"..\data\bmp\showhigh.bmp"-"!:\resource\apps\missdriller\bmp\showhigh.bmp"
+"..\data\bmp\startgame.bmp"-"!:\resource\apps\missdriller\bmp\startgame.bmp"
+"..\data\bmp\tileback.bmp"-"!:\resource\apps\missdriller\bmp\tileback.bmp"
+"..\data\bmp\tileback2.bmp"-"!:\resource\apps\missdriller\bmp\tileback2.bmp"
+"..\data\bmp\timeattack.bmp"-"!:\resource\apps\missdriller\bmp\timeattack.bmp"
+"..\data\bmp\title.bmp"-"!:\resource\apps\missdriller\bmp\title.bmp"
+"..\data\bmp\up.bmp"-"!:\resource\apps\missdriller\bmp\up.bmp"
+"..\data\bmp\block_lvl0_yellow.bmp"-"!:\resource\apps\missdriller\bmp\block_lvl0_yellow.bmp"
+; SUSUMI
+"..\data\susumi\susumi_down.bmp"-"!:\resource\apps\missdriller\susumi\susumi_down.bmp"
+"..\data\susumi\susumi_down_drill1.bmp"-"!:\resource\apps\missdriller\susumi\susumi_down_drill1.bmp"
+"..\data\susumi\susumi_down_drill2.bmp"-"!:\resource\apps\missdriller\susumi\susumi_down_drill2.bmp"
+"..\data\susumi\susumi_fall1.bmp"-"!:\resource\apps\missdriller\susumi\susumi_fall1.bmp"
+"..\data\susumi\susumi_fall2.bmp"-"!:\resource\apps\missdriller\susumi\susumi_fall2.bmp"
+"..\data\susumi\susumi_left.bmp"-"!:\resource\apps\missdriller\susumi\susumi_left.bmp"
+"..\data\susumi\susumi_left_drill1.bmp"-"!:\resource\apps\missdriller\susumi\susumi_left_drill1.bmp"
+"..\data\susumi\susumi_left_drill2.bmp"-"!:\resource\apps\missdriller\susumi\susumi_left_drill2.bmp"
+"..\data\susumi\susumi_left_escape.bmp"-"!:\resource\apps\missdriller\susumi\susumi_left_escape.bmp"
+"..\data\susumi\susumi_left_evade.bmp"-"!:\resource\apps\missdriller\susumi\susumi_left_evade.bmp"
+"..\data\susumi\susumi_left_walk2.bmp"-"!:\resource\apps\missdriller\susumi\susumi_left_walk2.bmp"
+"..\data\susumi\susumi_left_walk3.bmp"-"!:\resource\apps\missdriller\susumi\susumi_left_walk3.bmp"
+"..\data\susumi\susumi_right.bmp"-"!:\resource\apps\missdriller\susumi\susumi_right.bmp"
+"..\data\susumi\susumi_right_drill1.bmp"-"!:\resource\apps\missdriller\susumi\susumi_right_drill1.bmp"
+"..\data\susumi\susumi_right_drill2.bmp"-"!:\resource\apps\missdriller\susumi\susumi_right_drill2.bmp"
+"..\data\susumi\susumi_right_escape.bmp"-"!:\resource\apps\missdriller\susumi\susumi_right_escape.bmp"
+"..\data\susumi\susumi_right_evade.bmp"-"!:\resource\apps\missdriller\susumi\susumi_right_evade.bmp"
+"..\data\susumi\susumi_right_walk2.bmp"-"!:\resource\apps\missdriller\susumi\susumi_right_walk2.bmp"
+"..\data\susumi\susumi_right_walk3.bmp"-"!:\resource\apps\missdriller\susumi\susumi_right_walk3.bmp"
+"..\data\susumi\susumi_stump1.bmp"-"!:\resource\apps\missdriller\susumi\susumi_stump1.bmp"
+"..\data\susumi\susumi_stump2.bmp"-"!:\resource\apps\missdriller\susumi\susumi_stump2.bmp"
+"..\data\susumi\susumi_up.bmp"-"!:\resource\apps\missdriller\susumi\susumi_up.bmp"
+"..\data\susumi\susumi_up_drill1.bmp"-"!:\resource\apps\missdriller\susumi\susumi_up_drill1.bmp"
+"..\data\susumi\susumi_up_drill2.bmp"-"!:\resource\apps\missdriller\susumi\susumi_up_drill2.bmp"
+"..\data\susumi\player.txt"-"!:\resource\apps\missdriller\susumi\player.txt"
+
+"credits.txt"-"c:\data\miss_driller_credits.txt", FT, TC
+; Config/log files: 'empty' will automagically be removed on uninstall
+""-"c:\data\missdriller\drill.scr",FILENULL
+""-"c:\data\missdriller\drilltime.scr",FILENULL
+""-"c:\data\missdriller\sdl.ini",FILENULL

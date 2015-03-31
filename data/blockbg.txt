@@ -1,0 +1,27 @@
+#-------------------------------------------------
+#	.bmp data instruction
+#
+#	copyright 2000,adas
+#-------------------------------------------------
+#data format
+#bmp idnumber bmpfilename (no)
+#if 'no' or other characters exists,it has no transparent color
+
+#0	blockA.bmp
+0	block_lvl0_red.bmp
+#1	blockB.bmp
+1	block_lvl0_blue.bmp
+#2	blockC.bmp
+2	block_lvl0_green.bmp
+#3	blockD.bmp
+3	block_lvl0_yellow.bmp
+#4	blockE.bmp
+4	block_lvl0_clear.bmp
+
+5	blockX.bmp
+6	blockX1.bmp
+7	blockX2.bmp
+8	blockX2.bmp
+9	blockX4.bmp
+20	air.bmp
+
