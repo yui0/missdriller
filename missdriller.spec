@@ -1,18 +1,15 @@
 Name: missdriller
 Summary: Mr. Driller (C)NAMCO clone
 Version: 0.1
-Release: b1
+Release: b2
 URL: http://www.geocities.co.jp/Berkeley/2093/driller.html
 # Ref. http://www.embeddev.se/agroot/start.html
 Source0: %name-%version.tar.bz2
 License: LGPL
 Group: Amusements/Games
 Buildroot: %{_tmppath}/%{name}-%{version}
-#Buildrequires: SDL-devel, SDL_mixer-devel, mikmod-devel
 Buildrequires: SDL-devel, SDL_mixer-devel
 Requires: SDL_mixer >= 1.2.2
-
-BuildArchitectures: i586
 
 
 %description
